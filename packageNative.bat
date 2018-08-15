@@ -1,0 +1,1 @@
+javapackager -deploy -native -outdir build -srcdir build/fxlauncher -appclass fxlauncher.Launcher -outfile crossport -name crossport -title crossport -vendor nintha
