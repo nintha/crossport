@@ -1,6 +1,7 @@
 /target/
 /out/
 /build/
+/log/
 .gradle
 !.mvn/wrapper/maven-wrapper.jar
 
