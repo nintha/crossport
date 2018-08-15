@@ -1,9 +1,9 @@
 # Crossport
 
-A software to map some localhost ports to server ports. If the server has a public IP, you can access your local applications by this.
+A software solution to map some localhost ports to server ports. If the server has a public IP, you can access your local applications through this.
 
 ## Usage
-Crossport has both server program and client program in one jar package.
+Crossport has both a server program and a client program in a single jar package.
 
 ### Launch server
 
@@ -11,23 +11,23 @@ Crossport has both server program and client program in one jar package.
 java -jar crossport-0.0.1.jar --serverMode [--listenPort=5566]
 ```
 
-`--serverMode` crossport will run in server mode without GUI.
+With `--serverMode`, crossport will run in server mode without GUI.
 
-`--listenPort=5566` (optional) crossport will listen to port `5566`, default value is `5566`
+With `--listenPort=5566` (optional), crossport will listen to port `5566`; The default value is `5566`.
 
 ### Launch client
 
-crossport will run in client mode without argument `--serverMode`.
+Crossport will run in client mode without the argument `--serverMode`:
 ```sh
 java -jar crossport-0.0.1.jar --serverAddress=127.0.0.1:5566
 ```
 
-`--serverAddress=127.0.0.1:5566` (optional) to set server address, then crossport will connect to `127.0.0.1:5566`
+`--serverAddress=127.0.0.1:5566` (optional) sets server address; Crossport will connect to `127.0.0.1:5566`.
 
 ### Build project
 
-the project build by gradle
+The project is built with gradle:
 ```
 ./gradlew build
 ```
-the jar will be generated in `/build/libs`
+The jar package will be generated in `/build/libs`.
