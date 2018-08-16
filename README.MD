@@ -8,7 +8,7 @@ Crossport has both a server program and a client program in a single jar package
 ### Launch server
 
 ```sh
-java -jar crossport-0.0.1.jar --serverMode [--listenPort=5566]
+java -jar crossport-0.0.1.jar --serverMode --listenPort=5566
 ```
 
 With `--serverMode`, crossport will run in server mode without GUI.
