@@ -5,7 +5,7 @@ A software solution to map some localhost ports to server ports. If the server h
 +-----------+      +-----------+       +-----------+    +----------+
 |           |      |           |       |           |    |          |
 |Web Browser|      |PUBLIC HOST|       | LOCAL HOST|    |Local Web |
-|           |      |           |       |           |    |  Serser  |
+|           |      |           |       |           |    |  Server  |
 |           +------>40000  5566<-------+           +---->   8080   |
 |           |      |           |       |           |    |          |
 |           |      | crossport |       | crossport |    |          |
