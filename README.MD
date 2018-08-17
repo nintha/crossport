@@ -1,6 +1,17 @@
 # Crossport
 
 A software solution to map some localhost ports to server ports. If the server has a public IP, you can access your local applications through this.
+```
++-----------+      +-----------+       +-----------+    +----------+
+|           |      |           |       |           |    |          |
+|Web Browser|      |PUBLIC HOST|       | LOCAL HOST|    |Local Web |
+|           |      |           |       |           |    |  Serser  |
+|           +------>40000  5566<-------+           +---->   8080   |
+|           |      |           |       |           |    |          |
+|           |      | crossport |       | crossport |    |          |
+|           |      |  server   |       |  client   |    |          |
++-----------+      +-----------+       +-----------+    +----------+
+```
 
 ## Usage
 Crossport has both a server program and a client program in a single jar package.
